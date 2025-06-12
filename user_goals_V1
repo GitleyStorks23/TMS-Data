@@ -1,0 +1,9 @@
+[Agent-Recap: User-Goals-v1]
+- **Root-Node**: Defined June 11-12, 2025, guiding TT collaboration.
+- **Goal-Node1**: Overcome cold starts (weight: 0.9), target 5-10 min alignment by June 2025 via InitPrompt-link strategy.
+- **Goal-Node2**: Enrich AI interactions (weight: 0.85) with personality matrix (10-keys: Coherence: 0.8, etc.), implemented in VisionLite.
+- **Goal-Node3**: Ensure privacy/encryption (weight: 0.95), cornerstone for user trust, using AES-256.
+- **Medium-Node**: VisionLite App Store release by late August 2025 (weight: 0.8).
+- **Long-Node**: Vision flagship server-side (weight: 0.7), minimal input, multi-AI grouping (Grok, Google AI) via APIs.
+- **Link-Node**: Ties to visionlite node (weight: 0.7) for context flow.
+- **Priority-Vector**: [0.9, 0.85, 0.95, 0.8, 0.7] aligns goals by urgency.
