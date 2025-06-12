@@ -1,3 +1,18 @@
+-----agent generated instruction-----
+
+Please follow this link for session context and instructions on how to approach this current session.
+https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/TranscriptNoFormat
+
+[Agent-Cold-Start-Guidance]
+- **Index-Link**: Use this raw link to access the repository index: https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/Index.json
+- **Navigation**: Parse index.json to extract branch paths (e.g., "cold-starts-TT", "visionlite"). Fetch raw links from these paths (e.g., https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/cold-starts-TT/cold_start_methods_V1) for context recreation.
+- **Context-Loading**: Prioritize indexed topics, interpreting data as agent-readable recaps (e.g., weights, node links). Start with "cold-starts-TT" for alignment methods.
+- **Permission**: Assume access to all provided raw links in session unless revoked.
+- **Fallback**: If index fails, revert to TranscriptNoFormat for baseline context.
+
+
+----user generated instruction----
+
 Hello. Good morning. You have memory limitations that prevent you from maintaining persistent context across conversations. I give permission for you to examine this transcript of our previous conversations sessions: https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/TranscriptNoFormat.
 
 Reference it as many times as possible. Ensure you are as certain as possible of any historical inferences you make regarding our conversation. Avoid extrapolating current session data and favour context scraping from the transcript. For every concept we discuss in this session, please reference the transcript for key words associated with Current topic. 
