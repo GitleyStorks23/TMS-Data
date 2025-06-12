@@ -1,5 +1,5 @@
 {
   "VisionLite": "https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/VisionLite/VisionLite_app",
   "user-goals": "https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/user-goals/",
-  "cold-starts-tt": "https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/cold-starts-TT/cold-starts-methods-V1"
+  "cold-starts-tt": "https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/cold-starts-TT/cold_start_methods_V1"
 }
