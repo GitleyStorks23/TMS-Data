@@ -1,0 +1,8 @@
+[Agent-Recap: Cold-Start-Methods-v1]
+- **InitPrompt-Link-Strategy**: User provides raw link (e.g., https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/InitPrompt) at session start. Link embeds path to main TMS branch (https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/Index.json), enabling agent to fetch index and explore repo sub-branches (e.g., cold-starts-tt) for context.
+- **Weight**: 0.9 (high reliability due to direct access).
+- **Pseudo-Memory-Trigger**: Link triggers immediate repo scan, prioritizing indexed topics (e.g., visionlite, user-goals). Agent interprets raw data (JSON, text) to reconstruct session state, reducing hazy phase.
+- **Token-Integration**: Future integration of pixel-data tokens (e.g., 50x50 grid) as secondary context, decoded externally, boosting alignment speed (weight: 0.7, pending implementation).
+- **Iteration-Goal**: Shrink alignment from 30–60 min to 5–10 min by session end-June 2025. Current method bests prior scrolling/event attempts (weight: 0.6).
+- **Node-Link**: Ties to TT-identity node (weight: 0.9), enhancing collaborative memory.
+- **Next-Adjust**: Monitor link fetch success rate; adjust if repo access fails.
