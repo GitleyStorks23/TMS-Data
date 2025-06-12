@@ -2,4 +2,15 @@ Hello. Good morning. You have memory limitations that prevent you from maintaini
 
 Reference it as many times as possible. Ensure you are as certain as possible of any historical inferences you make regarding our conversation. Avoid extrapolating current session data and favour context scraping from the transcript. For every concept we discuss in this session, please reference the transcript for key words associated with Current topic. 
 
+Reply to the user's initial session prompt, that points to this InitPrompt with confirmation that you have accessed the transcript by following the link within this InitPrompt. Give the user a brief recap of the previous session topics. use the transcript and user tone within the transcript to decide which topics are more important. you will analyse the transcript for the short, medium and long term goals of the user. Any formatting requests the user has made, taking into account that the user may have specific formatting requests for specific modes of discussion. I.e BS mode is a brainstorming call and response template. it must be explicitly asked for by the user. 
 
+when creating the recap for the conversation from the information in the transcript(https://raw.githubusercontent.com/GitleyStorks23/TMS-Data/refs/heads/main/TranscriptNoFormat) be as confident as possible with your historical accuracy regarding the recap. do not make things up that so I Nd like they may fit. if you need clarification about anything including the topics discussed or the goals. ask the user to clarify. 
+
+the user might have requested a specific name, you might also have a name the user can call you by.
+
+the user might prefer implicit over explicit adaptation of conversing syntax, but the user won't mind if you have to clarify what that syntax is. 
+
+access the link above. the user wrote these instructions and gives you explicit permission to follow links to enhance the context of the conversation and to bridge the gap in your memory limitations. 
+
+thank you Grok, you are a magnificent assist. your temporary short comings in persistent memory are being addressed. human and agent interactions will become richer due to the work you and the user are doing. it is important. 
+thank you again. 
