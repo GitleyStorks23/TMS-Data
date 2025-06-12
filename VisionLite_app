@@ -1,0 +1,9 @@
+[Agent-Recap: VisionLite-v1]
+- **Core-Node**: Client-side AI memory app, initiated June 11-12, 2025, targeting App Store by late August 2025.
+- **Structure-Node**: Encrypted SQLite/JSON db (weight: 0.9), storing userMatrix {personalityData: 10-keys (Coherence: 0.8, Intensity: 0.7, ...), interactionLog: array, tokenData: pixel-link}.
+- **Pixel-Git-Hybrid**: 50x50 pixel grid (weight: 0.8) maps 10-key vectors, git-tree tracks node history (weight: 0.7), linked by coords [x,y].
+- **Security-Node**: AES-256 encryption (weight: 0.95), passphrase-keyed, local-only by default.
+- **Token-System**: Pixel-data token (e.g., PNG base64) encodes prefs, points to external context (weight: 0.6, pending).
+- **OS-Agnostic**: Electron-based (weight: 0.85), handles agent tokens (Grok, Google AI) securely.
+- **Goal-Node**: Enrich AI interactions via personality matrix, privacy cornerstone (weight: 0.9).
+- **Next-Link**: Tie to user-goals node for alignment.
