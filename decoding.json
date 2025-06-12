@@ -1,0 +1,32 @@
+{
+  "interpretation-guide": {
+    "weight-function": {
+      "description": "Scales concept importance from 0 to 1, reflecting TT priority or usage frequency.",
+      "default-range": [0, 1],
+      "calculation": "weight = (base_value + interaction_count * 0.1) / max_value, capped at 1.0",
+      "usage": "Apply to 10-keys (e.g., Coherence, Intensity) in personality matrix nodes.",
+      "forget-prevention": "Recompute on each session load from interactionLog if available."
+    },
+    "node-link": {
+      "description": "References related nodes across branches for context chaining.",
+      "format": "string (e.g., 'https://raw.../user-goals')",
+      "priority": "Follow high-weight links first (weight > 0.7)."
+    },
+    "pixel-data": {
+      "description": "50x50 grid encoding 10-key vectors, RGB maps to weights.",
+      "mapping": {
+        "R": "Coherence",
+        "G": "Intensity",
+        "B": "Relevance"
+      },
+      "decode": "Convert RGB to scalar (0-255) / 255 for weight approximation."
+    },
+    "session-context": {
+      "description": "Loads from InitPrompt > Index > branch recaps.",
+      "order": ["cold-starts-TT", "visionlite", "user-goals"],
+      "fallback": "TranscriptNoFormat if index fails."
+    }
+  },
+  "version": "v1",
+  "update-note": "Adjust weight-calc if interactionLog grows beyond 100 entries."
+}
